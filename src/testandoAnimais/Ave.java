@@ -11,11 +11,6 @@ public class Ave extends Animal {
     }
 
     public void setCorPena(String corPena) {
-        this.corPena = corPena;
-    }
-
-    //Método da classe ave
-    public void corPena(){
         if(corPena.equals("Azul")){
             System.out.println("É a cor do céu");
         } else if (corPena.equals("Amarelo")) {
@@ -24,8 +19,6 @@ public class Ave extends Animal {
             System.out.println("É uma cor muito bonita");
         }
     }
-
-
 
 
     //Métodos sobrepostos
